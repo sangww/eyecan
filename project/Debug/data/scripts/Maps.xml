@@ -1,0 +1,13 @@
+<action>
+	<move>on</move>
+	<short_click>up</short_click>
+	<click>click</click>
+	<margin_left>left-none-none-none-none-none-none-none-none-none-none</margin_left>
+	<margin_right>right-none-none-none-none-none-none-none-none-none-none</margin_right>
+	<margin_top>pageup-none-none-none-none-none-none-none-none-none-none</margin_top>
+	<margin_bottom>pagedown-none-none-none-none-none-none-none-none-none-none</margin_bottom>
+	<out_left>left-none-none-none-none-none-none-none-none-none-none</out_left>
+	<out_right>right-none-none-none-none-none-none-none-none-none-none</out_right>
+	<out_top>pageup-none-none-none-none-none-none-none-none-none-none</out_top>
+	<out_bottom>pagedown-none-none-none-none-none-none-none-none-none-none</out_bottom>
+</action>

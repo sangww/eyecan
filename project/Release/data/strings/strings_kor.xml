@@ -1,0 +1,27 @@
+<pctrl_pause>일시 정지</pctrl_pause>
+<calib_need_calibration>Calibration이 필요합니다.</calib_need_calibration>
+<calib_no_record>Calibration 기록이 없습니다.</calib_no_record>
+<calib_score_is>당신의 점수는: </calib_score_is>
+<calib_score_is_end> 점!</calib_score_is_end>
+<mouse_ready>준비 완료</mouse_ready>
+<mouse_help_f12>F8를 눌러 시작!</mouse_help_f12>
+<mouse_locked>잠금 상태</mouse_locked>
+<mouse_dragging>드래그 중...</mouse_dragging>
+<mouse_scrolling>스크롤 중...</mouse_scrolling>
+<mouse_help_1>눈감기->클릭->고급클릭</mouse_help_1>
+<mouse_help_2>눈감기->클릭</mouse_help_2>
+<mouse_out_top>위로 나감</mouse_out_top>
+<mouse_out_bottom>아래로 나감</mouse_out_bottom>
+<mouse_out_left>왼쪽으로 나감</mouse_out_left>
+<mouse_out_right>오른쪽으로 나감</mouse_out_right>
+<mouse_closed>...</mouse_closed>
+<mouse_closed_click>...클릭...</mouse_closed_click>
+<mouse_closed_long>...고급클릭</mouse_closed_long>
+<mouse_click_helper>[고급클릭]</mouse_click_helper>
+<mouse_click_helper_ok>[고급클릭] 완료</mouse_click_helper_ok>
+<mouse_help_click_helper>상자 상하좌우를 바라보며 위치 조정</mouse_help_click_helper>
+<mouse_do_error_comp>[오차보정] 시작</mouse_do_error_comp>
+<mouse_error_comp>[오차보정]</mouse_error_comp>
+<mouse_error_comp_ok>[오차보정] 완료</mouse_error_comp_ok>
+<mouse_cancel_error_comp>[오차보정] 취소</mouse_cancel_error_comp>
+<mouse_help_error_comp>마우스가 있는 곳을 바라보세요.</mouse_help_error_comp>

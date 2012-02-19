@@ -1,0 +1,8 @@
+<action>
+	<move>on</move>
+	<click>click</click>
+	<short_click>down</short_click>
+	<long_click>o</long_click>
+	<click_margin_left>left</click_margin_left>
+	<click_margin_right>right</click_margin_right>
+</action>

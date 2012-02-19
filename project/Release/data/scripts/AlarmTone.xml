@@ -1,0 +1,5 @@
+<action>	
+	<move>off</move>
+	<short_click>emergency</short_click>
+	<click>emergency</click>
+</action>

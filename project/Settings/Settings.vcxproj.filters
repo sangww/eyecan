@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\src">
+      <UniqueIdentifier>{dd33c412-9c8f-4cac-9d7f-18195b969984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons">
+      <UniqueIdentifier>{a8ed336c-1dd7-493a-99de-dfcb2c851a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxDirList">
+      <UniqueIdentifier>{7da13e2a-509c-45e5-a9dd-87871e869ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxOpenCv">
+      <UniqueIdentifier>{91199317-fdb5-44e8-b897-5f3ae2d01cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxOpenCv\libs">
+      <UniqueIdentifier>{1e50c1de-901a-4986-8208-cce93e0c470c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxOpenCv\src">
+      <UniqueIdentifier>{55800005-d5b7-4aa2-8926-5e4d335fad05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxXmlSettings">
+      <UniqueIdentifier>{c140a9f7-f1ea-49ab-a60f-28cb466f27c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{d218c517-e2c8-40f2-a261-9246fde23de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{8fc7d7e3-3491-4c1f-bd3c-53b7bd4a2cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\addons\ofxVectorMath">
+      <UniqueIdentifier>{167f0a04-5212-4936-829d-34b88a2886ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs">
+      <UniqueIdentifier>{9fa3aaa8-588b-4c58-b4c9-a80810cba7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks">
+      <UniqueIdentifier>{f0ab9857-91a9-4a2c-92b3-d98658d1ccac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks\app">
+      <UniqueIdentifier>{9e5bbd54-4ff8-4d41-8283-fbe602a52223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks\communication">
+      <UniqueIdentifier>{4b25c611-4a34-48f9-b7b0-b3c483805f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks\events">
+      <UniqueIdentifier>{43026f6e-8a69-40d8-8277-03726917cc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks\graphics">
+      <UniqueIdentifier>{dc738f22-b7e2-47b3-8dcd-71b9e6c0114d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks\sound">
+      <UniqueIdentifier>{531871d8-069b-468c-b8e0-dfe6890f31b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks\utils">
+      <UniqueIdentifier>{5a843582-cdb3-4720-b22b-c0bba20e5ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\libs\openframeworks\video">
+      <UniqueIdentifier>{5354def8-23e6-4678-ae8c-f3bf58542e8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\utils\ofxControlPanel\ofxControlPanel.cpp">
+      <Filter>소스 파일\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\settings\main.cpp">
+      <Filter>소스 파일\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\settings\theApp.cpp">
+      <Filter>소스 파일\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxDirList\src\ofxDirList.cpp">
+      <Filter>소스 파일\addons\ofxDirList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>소스 파일\addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>소스 파일\addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>소스 파일\addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>소스 파일\addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix3x3.cpp">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix4x4.cpp">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\addons\ofxVectorMath\src\ofxQuaternion.cpp">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\app\ofAppGlutWindow.cpp">
+      <Filter>소스 파일\libs\openframeworks\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\app\ofAppRunner.cpp">
+      <Filter>소스 파일\libs\openframeworks\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\communication\ofArduino.cpp">
+      <Filter>소스 파일\libs\openframeworks\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\communication\ofSerial.cpp">
+      <Filter>소스 파일\libs\openframeworks\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofBitmapFont.cpp">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofGraphics.cpp">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofImage.cpp">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofTexture.cpp">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofTrueTypeFont.cpp">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundPlayer.cpp">
+      <Filter>소스 파일\libs\openframeworks\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundStream.cpp">
+      <Filter>소스 파일\libs\openframeworks\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\utils\ofMath.cpp">
+      <Filter>소스 파일\libs\openframeworks\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\utils\ofUtils.cpp">
+      <Filter>소스 파일\libs\openframeworks\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\video\ofQtUtils.cpp">
+      <Filter>소스 파일\libs\openframeworks\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\video\ofVideoGrabber.cpp">
+      <Filter>소스 파일\libs\openframeworks\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\video\ofVideoPlayer.cpp">
+      <Filter>소스 파일\libs\openframeworks\video</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\utils\ofxControlPanel\ofxControlPanel.h">
+      <Filter>소스 파일\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\settings\theApp.h">
+      <Filter>소스 파일\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxDirList\src\ofxDirList.h">
+      <Filter>소스 파일\addons\ofxDirList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cv.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cv.hpp">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvaux.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvaux.hpp">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvcompat.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvmat.hpp">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvstreams.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvtypes.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvver.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvvidsurv.hpp">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvwimage.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxcore.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxcore.hpp">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxerror.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxmisc.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxtypes.h">
+      <Filter>소스 파일\addons\ofxOpenCv\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvMain.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>소스 파일\addons\ofxOpenCv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>소스 파일\addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>소스 파일\addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix3x3.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix4x4.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxPoint2f.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxPoint3f.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxPoint4f.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxQuaternion.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVec2f.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVec3f.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVec4f.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVectorMath.h">
+      <Filter>소스 파일\addons\ofxVectorMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofAppBaseWindow.h">
+      <Filter>소스 파일\libs\openframeworks\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofAppGlutWindow.h">
+      <Filter>소스 파일\libs\openframeworks\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofAppRunner.h">
+      <Filter>소스 파일\libs\openframeworks\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofBaseApp.h">
+      <Filter>소스 파일\libs\openframeworks\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\communication\ofArduino.h">
+      <Filter>소스 파일\libs\openframeworks\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\communication\ofSerial.h">
+      <Filter>소스 파일\libs\openframeworks\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\events\ofEvents.h">
+      <Filter>소스 파일\libs\openframeworks\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\events\ofEventUtils.h">
+      <Filter>소스 파일\libs\openframeworks\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofBitmapFont.h">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofGraphics.h">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofImage.h">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofTexture.h">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofTrueTypeFont.h">
+      <Filter>소스 파일\libs\openframeworks\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundPlayer.h">
+      <Filter>소스 파일\libs\openframeworks\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundStream.h">
+      <Filter>소스 파일\libs\openframeworks\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofConstants.h">
+      <Filter>소스 파일\libs\openframeworks\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofMath.h">
+      <Filter>소스 파일\libs\openframeworks\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofNoise.h">
+      <Filter>소스 파일\libs\openframeworks\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofTypes.h">
+      <Filter>소스 파일\libs\openframeworks\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofUtils.h">
+      <Filter>소스 파일\libs\openframeworks\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\video\ofQtUtils.h">
+      <Filter>소스 파일\libs\openframeworks\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\video\ofVideoGrabber.h">
+      <Filter>소스 파일\libs\openframeworks\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\video\ofVideoPlayer.h">
+      <Filter>소스 파일\libs\openframeworks\video</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

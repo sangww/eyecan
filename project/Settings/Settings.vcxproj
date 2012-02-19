@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4568B777-A8A5-4760-9047-C07A673E7B10}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Settings</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\of_vs\libs\openFrameworks;$(SolutionDir)\..\of_vs\libs\openFrameworks\utils;$(SolutionDir)\..\of_vs\libs\glee\include;$(SolutionDir)\..\of_vs\libs\glu\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\communication;$(SolutionDir)\..\of_vs\libs\openFrameworks\events;$(SolutionDir)\..\of_vs\libs\poco\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\graphics;$(SolutionDir)\..\of_vs\libs\openFrameworks\app;$(SolutionDir)\..\of_vs\libs\glut\include;$(SolutionDir)\..\of_vs\libs\FreeImage\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\sound;$(SolutionDir)\..\of_vs\libs\fmodex\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\video;$(SolutionDir)\..\of_vs\libs\videoInput\include;$(SolutionDir)\..\of_vs\libs\quicktime\include;$(SolutionDir)\..\of_vs\addons\ofxXmlSettings\src;$(SolutionDir)\..\of_vs\addons\ofxXmlSettings\libs;$(SolutionDir)\..\of_vs\addons\ofxDirList\src;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\src;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\include;$(SolutionDir)\..\of_vs\addons\ofxVectorMath\src;$(SolutionDir)\..\of_vs\addons\ofxImage\src;$(SolutionDir)\..\of_vs\addons\ofxThread\src;$(SolutionDir)\..\of_vs\libs\rtAudio\include;$(SolutionDir)\..\of_vs\libs\freeType\include;$(SolutionDir)\..\of_vs\libs\freeType\include\freetype2;$(SolutionDir)\..\src\utils\ofxControlPanel;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\of_vs\libs\openFrameworks;$(SolutionDir)\..\of_vs\libs\openFrameworks\utils;$(SolutionDir)\..\of_vs\libs\glee\include;$(SolutionDir)\..\of_vs\libs\glu\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\communication;$(SolutionDir)\..\of_vs\libs\openFrameworks\events;$(SolutionDir)\..\of_vs\libs\poco\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\graphics;$(SolutionDir)\..\of_vs\libs\openFrameworks\app;$(SolutionDir)\..\of_vs\libs\glut\include;$(SolutionDir)\..\of_vs\libs\FreeImage\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\sound;$(SolutionDir)\..\of_vs\libs\fmodex\include;$(SolutionDir)\..\of_vs\libs\openFrameworks\video;$(SolutionDir)\..\of_vs\libs\videoInput\include;$(SolutionDir)\..\of_vs\libs\quicktime\include;$(SolutionDir)\..\of_vs\addons\ofxXmlSettings\src;$(SolutionDir)\..\of_vs\addons\ofxXmlSettings\libs;$(SolutionDir)\..\of_vs\addons\ofxDirList\src;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\src;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\include;$(SolutionDir)\..\of_vs\addons\ofxVectorMath\src;$(SolutionDir)\..\of_vs\addons\ofxImage\src;$(SolutionDir)\..\of_vs\addons\ofxThread\src;$(SolutionDir)\..\of_vs\libs\rtAudio\include;$(SolutionDir)\..\of_vs\libs\freeType\include;$(SolutionDir)\..\of_vs\libs\freeType\include\freetype2;$(SolutionDir)\..\src\utils\ofxControlPanel;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(SolutionDir)\..\of_vs\libs\glee\lib\vs2010\GLee.lib;$(SolutionDir)\..\of_vs\libs\glu\lib\vs2010\glu32.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoFoundationd.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoFoundationmdd.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoUtilmdd.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoXMLmdd.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoNetmdd.lib;$(SolutionDir)\..\of_vs\libs\glut\lib\vs2010\glut32.lib;$(SolutionDir)\..\of_vs\libs\quicktime\lib\vs2010\qtmlClient.lib;$(SolutionDir)\..\of_vs\libs\freeImage\lib\vs2010\FreeImage.lib;$(SolutionDir)\..\of_vs\libs\fmodex\lib\vs2010\fmodex_vc.lib;$(SolutionDir)\..\of_vs\libs\videoInput\lib\vs2010\videoInput.lib;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\lib\vs2010\cv110d.lib;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\lib\vs2010\cxcore110d.lib;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\lib\vs2010\cvaux110d.lib;$(SolutionDir)\..\of_vs\libs\rtAudio\lib\vs2010\rtAudiod.lib;$(SolutionDir)\..\of_vs\libs\freeType\lib\vs2010\libfreetype.lib;setupapi.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib; LIBCMT.lib; atlthunk.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(SolutionDir)\..\of_vs\libs\glee\lib\vs2010\GLee.lib;$(SolutionDir)\..\of_vs\libs\glu\lib\vs2010\glu32.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoFoundation.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoFoundationmd.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoUtilmd.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoXMLmd.lib;$(SolutionDir)\..\of_vs\libs\poco\lib\vs2010\PocoNetmd.lib;$(SolutionDir)\..\of_vs\libs\glut\lib\vs2010\glut32.lib;$(SolutionDir)\..\of_vs\libs\quicktime\lib\vs2010\qtmlClient.lib;$(SolutionDir)\..\of_vs\libs\freeImage\lib\vs2010\FreeImage.lib;$(SolutionDir)\..\of_vs\libs\fmodex\lib\vs2010\fmodex_vc.lib;$(SolutionDir)\..\of_vs\libs\videoInput\lib\vs2010\videoInput.lib;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\lib\vs2010\cv110.lib;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\lib\vs2010\cxcore110.lib;$(SolutionDir)\..\of_vs\addons\ofxOpenCv\libs\opencv\lib\vs2010\cvaux110.lib;$(SolutionDir)\..\of_vs\libs\rtAudio\lib\vs2010\rtAudio.lib;$(SolutionDir)\..\of_vs\libs\freeType\lib\vs2010\libfreetype.lib;setupapi.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib; LIBCMT.lib; atlthunk.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\of_vs\addons\ofxDirList\src\ofxDirList.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvColorImage.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvContourFinder.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvFloatImage.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvImage.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvShortImage.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix3x3.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix4x4.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxVectorMath\src\ofxQuaternion.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxml.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\of_vs\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\app\ofAppGlutWindow.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\app\ofAppRunner.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\communication\ofArduino.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\communication\ofSerial.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofBitmapFont.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofGraphics.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofImage.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofTexture.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\graphics\ofTrueTypeFont.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundPlayer.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundStream.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\utils\ofMath.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\utils\ofUtils.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\video\ofQtUtils.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\video\ofVideoGrabber.cpp" />
+    <ClCompile Include="..\..\of_vs\libs\openFrameworks\video\ofVideoPlayer.cpp" />
+    <ClCompile Include="..\..\src\settings\main.cpp" />
+    <ClCompile Include="..\..\src\settings\theApp.cpp" />
+    <ClCompile Include="..\..\src\utils\ofxControlPanel\ofxControlPanel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\of_vs\addons\ofxDirList\src\ofxDirList.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cv.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cv.hpp" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvaux.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvaux.hpp" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvcompat.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvmat.hpp" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvstreams.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvtypes.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvver.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvvidsurv.hpp" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cvwimage.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxcore.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxcore.hpp" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxerror.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxmisc.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\libs\opencv\include\cxtypes.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvBlob.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvColorImage.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvConstants.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvContourFinder.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvFloatImage.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvImage.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvMain.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxCvShortImage.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxOpenCv\src\ofxOpenCv.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix3x3.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxMatrix4x4.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxPoint2f.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxPoint3f.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxPoint4f.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxQuaternion.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVec2f.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVec3f.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVec4f.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxVectorMath\src\ofxVectorMath.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxXmlSettings\libs\tinyxml.h" />
+    <ClInclude Include="..\..\of_vs\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofAppBaseWindow.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofAppGlutWindow.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofAppRunner.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\app\ofBaseApp.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\communication\ofArduino.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\communication\ofSerial.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\events\ofEvents.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\events\ofEventUtils.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofBitmapFont.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofGraphics.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofImage.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofTexture.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\graphics\ofTrueTypeFont.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundPlayer.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\sound\ofSoundStream.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofConstants.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofMath.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofNoise.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofTypes.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\utils\ofUtils.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\video\ofQtUtils.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\video\ofVideoGrabber.h" />
+    <ClInclude Include="..\..\of_vs\libs\openFrameworks\video\ofVideoPlayer.h" />
+    <ClInclude Include="..\..\src\settings\theApp.h" />
+    <ClInclude Include="..\..\src\utils\ofxControlPanel\ofxControlPanel.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

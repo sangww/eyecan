@@ -1,0 +1,11 @@
+<action>
+	<move>off</move>
+	<calibrate>off</calibrate>
+	<long_click>play0</long_click>
+</action>
+<config>
+	<marginHorizontal>0.2</marginHorizontal>
+	<marginVertical>0.2</marginVertical>
+	<tone0>audio/alarm.wav</tone0>
+</config>
+

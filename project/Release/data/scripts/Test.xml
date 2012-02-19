@@ -1,0 +1,19 @@
+<action>
+	<move>on</move>
+	<blink>~x</blink>
+	<short_click>~x</short_click>
+	<margin_center>c^,left^,right^</margin_center>
+	<center>left^,right^</center>
+	<margin_top>c_</margin_top>
+	<left>left_</left>
+	<right>right_</right>
+	<margin_left>x_,left_</margin_left>
+	<margin_right>x_,right_</margin_right>
+	<out_left>x_,left_</out_left>
+	<out_right>x_,right_</out_right>
+</action>
+<config>
+	<marginHorizontal>0.2</marginHorizontal>
+	<marginVertical>0.2</marginVertical>
+</config>
+

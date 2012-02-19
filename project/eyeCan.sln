@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eyeCan", "eyeCan\eyeCan.vcxproj", "{A80CF38E-0D0F-499C-B124-FAB01E05AC7D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{C5943C6D-F482-4583-9A33-CACDD8375844}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Settings", "Settings\Settings.vcxproj", "{4568B777-A8A5-4760-9047-C07A673E7B10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A80CF38E-0D0F-499C-B124-FAB01E05AC7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A80CF38E-0D0F-499C-B124-FAB01E05AC7D}.Debug|Win32.Build.0 = Debug|Win32
+		{A80CF38E-0D0F-499C-B124-FAB01E05AC7D}.Release|Win32.ActiveCfg = Release|Win32
+		{A80CF38E-0D0F-499C-B124-FAB01E05AC7D}.Release|Win32.Build.0 = Release|Win32
+		{C5943C6D-F482-4583-9A33-CACDD8375844}.Debug|Win32.ActiveCfg = Debug
+		{C5943C6D-F482-4583-9A33-CACDD8375844}.Release|Win32.ActiveCfg = Release
+		{4568B777-A8A5-4760-9047-C07A673E7B10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4568B777-A8A5-4760-9047-C07A673E7B10}.Debug|Win32.Build.0 = Debug|Win32
+		{4568B777-A8A5-4760-9047-C07A673E7B10}.Release|Win32.ActiveCfg = Release|Win32
+		{4568B777-A8A5-4760-9047-C07A673E7B10}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
