@@ -1,29 +1,15 @@
+    eyeCan: a program that enables people to use PC with their eyes
+    Copyright (C) 2012  Sang-won Leigh
 
-   eyeCan
-   Copyright 2012 Sang-won Leigh
+    eyeCan is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-   This product includes software developed at
-   Project eyeCan (http://eyecanproject.wordpress.com/) by members of Forge 
-   as the first project of Samsung CLAB.
+    eyeCan is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-   Portions of this software (eye-tracker, calibrator, camera settings, etc)
-   were developed at EyeWriter project (http://www.eyewriter.org/).
-   We appreciate the wonderful work by Free Art and Technology (FAT), 
-   OpenFrameworks and the Graffiti Resarch Lab: Tempt1, Evan Roth, Chris Sugrue,
-   Zach Lieberman,Theo Watson, James Powderly and The Ebeling Group.
-
-   This software is based on openFrameworks v0.062 so anybody who wants
-   to compile may locate the appropriate version of openFrameworks under
-   the folder named of_vs.
-
-   This software contains codes as listed below:
-   - ofxCvGrayscaleAdvanced by Stefanix and Zach
-   - buttonRect by Theo
-   - ofxControlPanel by Theodore (https://github.com/ofTheo/ofxControlPanel)
-   - ofxLeastSquares by kyle (http://code.google.com/p/kyle/)
-   - ofTrueTypeFontWS by OFTeam (http://www.openframeworks.cc/license)
-
-   We welcome further ideas and contributions to improve this software by
-   scientists, engineers, and designers. The original software is available from
-      http://code.google.com/p/eyecan/
-
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
