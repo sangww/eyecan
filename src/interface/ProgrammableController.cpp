@@ -187,47 +187,6 @@ void ProgrammableController::eyeClick(int _x, int _y, onScreenPosition pos)
 		winaction::LeftClick();
 		return;
 	}
-	doClickSelector(); //TODO: diff actions
-	f_list[AD_CLICK]->call();
-
-	bool x_center, y_center;
-				
-	//just
-	x_center=y_center=false;
-	if(_x<oneThirdHorizontal) f_list[AD_CLICKLEFT]->call();
-	else if(_x>fScreenWidth-oneThirdHorizontal) f_list[AD_CLICKRIGHT]->call();
-	else x_center=true;
-	if(_y<oneThirdVertical) f_list[AD_CLICKTOP]->call();
-	else if(_y>fScreenHeight-oneThirdVertical) f_list[AD_CLICKBOTTOM]->call();
-	else y_center=true;
-	if(x_center && y_center) f_list[AD_CLICKCENTER]->call();
-
-	//margin
-	x_center=y_center=false;
-	if(_x<marginHorizontal) f_list[AD_CLICKMARGINLEFT]->call();
-	else if(_x>fScreenWidth-marginHorizontal) f_list[AD_CLICKMARGINRIGHT]->call();
-	else x_center=true;
-	if(_y<marginVertical) f_list[AD_CLICKMARGINTOP]->call();
-	else if(_y>fScreenHeight-marginVertical) f_list[AD_CLICKMARGINBOTTOM]->call();
-	else y_center=true;
-	if(x_center && y_center) f_list[AD_CLICKMARGINCENTER]->call();
-		
-
-	switch(pos)
-	{
-	case otop:
-		f_list[AD_CLICKOUTTOP]->call();
-		break;
-	case obottom:
-		f_list[AD_CLICKOUTBOTTOM]->call();
-		break;
-	case oleft:
-		f_list[AD_CLICKOUTLEFT]->call();
-		break;
-	case oright:
-		f_list[AD_CLICKOUTRIGHT]->call();
-		break;
-	}
 
 	//btt update
 	switch(PUI.bp.update(x,y))
@@ -253,6 +212,48 @@ void ProgrammableController::eyeClick(int _x, int _y, onScreenPosition pos)
 			isStarted=false;
 		}
 		break;
+	default:		
+		doClickSelector(); //TODO: diff actions
+		f_list[AD_CLICK]->call();
+
+	bool x_center, y_center;
+				
+	//just
+	x_center=y_center=false;
+	if(_x<oneThirdHorizontal) f_list[AD_CLICKLEFT]->call();
+	else if(_x>fScreenWidth-oneThirdHorizontal) f_list[AD_CLICKRIGHT]->call();
+	else x_center=true;
+	if(_y<oneThirdVertical) f_list[AD_CLICKTOP]->call();
+	else if(_y>fScreenHeight-oneThirdVertical) f_list[AD_CLICKBOTTOM]->call();
+	else y_center=true;
+	if(x_center && y_center) f_list[AD_CLICKCENTER]->call();
+
+	//margin
+	x_center=y_center=false;
+	if(_x<marginHorizontal) f_list[AD_CLICKMARGINLEFT]->call();
+	else if(_x>fScreenWidth-marginHorizontal) f_list[AD_CLICKMARGINRIGHT]->call();
+	else x_center=true;
+	if(_y<marginVertical) f_list[AD_CLICKMARGINTOP]->call();
+	else if(_y>fScreenHeight-marginVertical) f_list[AD_CLICKMARGINBOTTOM]->call();
+	else y_center=true;
+	if(x_center && y_center) f_list[AD_CLICKMARGINCENTER]->call();
+		
+
+		switch(pos)
+		{
+		case otop:
+			f_list[AD_CLICKOUTTOP]->call();
+			break;
+		case obottom:
+			f_list[AD_CLICKOUTBOTTOM]->call();
+			break;
+		case oleft:
+			f_list[AD_CLICKOUTLEFT]->call();
+			break;
+		case oright:
+			f_list[AD_CLICKOUTRIGHT]->call();
+			break;
+		}
 	}
 }
 void ProgrammableController::eyeLongClick(int _x, int _y, onScreenPosition pos)

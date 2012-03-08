@@ -98,10 +98,10 @@ void ProgrammableUI::draw(wstring state, wstring help)
 	if(mode==0){
 		fontWS.drawString(state, 80,30);
 		helpWS.drawString(help, 80,50);
+	bp.draw();
 	}
 	else{
 	}
-	bp.draw();
 }
 void ProgrammableUI::draw(string state,string help)
 {	
@@ -109,10 +109,10 @@ void ProgrammableUI::draw(string state,string help)
 	if(mode==0){
 		fontWS.drawString(strconv(state), 80,30);
 		helpWS.drawString(strconv(help), 80,50);
+		bp.draw();
 	}
 	else{
 	}
-	bp.draw();
 }
 
 
